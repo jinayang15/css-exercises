@@ -4,6 +4,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 8px;
 }
 
 .logo {
@@ -20,6 +21,7 @@ ul {
   display: flex;
   /* list containers have automatic padding on them */
   padding: 0px;
+  gap: 8px;
 }
 
 a {
@@ -28,5 +30,4 @@ a {
   padding: 8px;
   /* this removes the line under the links */
   text-decoration: none;
-  margin: 8px;
 }
